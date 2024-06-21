@@ -4,6 +4,7 @@ import "./globals.css";
 
 const inter = Luxurious_Roman({
   weight: "400",
+  subsets: ["latin"],
 });
 
 export const metadata: Metadata = {

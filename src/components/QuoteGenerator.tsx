@@ -41,7 +41,7 @@ export function QuoteGenerator() {
   );
 }
 
-function RefreshCwIcon(props) {
+function RefreshCwIcon(props: React.SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}
@@ -64,7 +64,7 @@ function RefreshCwIcon(props) {
 }
 
 
-function TwitterIcon(props) {
+function TwitterIcon(props: React.SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}
